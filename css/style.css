@@ -1,0 +1,335 @@
+/********** Template CSS **********/
+:root {
+    --primary: #3CB815;
+    --secondary: #F65005;
+    --light: #F7F8FC;
+    --dark: #111111;
+}
+
+
+/*** Section Header ***/
+.section-header {
+    position: relative;
+    padding-top: 25px;
+}
+
+.section-header::before {
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 2px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--primary);
+}
+
+.section-header::after {
+    position: absolute;
+    content: "";
+    width: 90px;
+    height: 2px;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--secondary);
+}
+
+.section-header.text-start::before,
+.section-header.text-start::after {
+    left: 0;
+    transform: translateX(0);
+}
+
+.principalnav .fw-bold {
+    float: left;
+    width: 25%;
+} 
+
+
+
+.nav{
+    float: right;
+    z-index: 1;
+}
+
+
+.principalcarrusel{
+    width: 100%;
+    height: auto;
+}
+
+.principalcarrusel .carousel-caption .titulocarrusel{
+    width: 100%;
+    float: left;
+    font-size: 50px;
+    color: #090808;
+    text-align: center;
+    text-transform: uppercase;
+    padding-right: 70%;
+    padding-bottom: 10%;
+    
+}
+
+.principalcarrusel .botoncarrusel{
+   margin-right: 75%;
+   margin-bottom: 20%;
+}
+
+.principalcarrusel .botonproductos{ 
+    text-align: center;
+    background-color: #3CB815;
+    border-radius: 5px;
+    color: #F7F8FC;
+    border: none;
+    padding: 15px 10px;
+    font-size: 18px;
+}
+
+.principalcarrusel .botonservicios{ 
+    text-align: center;
+    background-color: #F65005;
+    border-radius: 5px;
+    color: #F7F8FC;
+    border: none;
+    padding: 15px 10px;
+    font-size: 18px;
+}
+
+.principalfrutas {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+.principalfrutas .secundariofrutas{
+    width: 100%;
+    height: auto;
+    
+}
+
+
+.principalfrutas .secundariofrutas .imagenfrutas{
+    width: 40%;  
+    height: auto;    
+   float: left;
+ }
+
+.principalfrutas .secundariofrutas .imagenfrutas .imagen{
+   display: block;
+   width: 50%;
+   height: auto;
+   border-radius: 50%;
+    margin: 50px auto;
+    z-index: 1;
+}
+
+
+.principalfrutas .secundariofrutas .textoprincipalfrutas{
+    width: 60%;
+   float: left;
+   height: auto;
+   margin-top: 50px;
+}
+
+
+.textoprincipalfrutas .btninformacion{
+    text-align: center;
+    background-color: #3CB815;
+    border-radius: 30px;
+    color: #F7F8FC;
+    border: none;
+    padding: 15px 20px;
+    font-size: 18px;
+    margin-right: 10%;
+}
+
+.principalcaracteriza{
+    clear: both;
+    background-color: #f7f0f3;
+    width: 100%;
+    height: auto;
+}
+
+.principalcaracteriza .section-header{
+    text-align: center;
+}
+
+.principalcaracteriza .seccion-caracteriza{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.principalcaracteriza .seccion-caracteriza .sub-caracteriza{
+    width: 30%;
+    background-color: white;
+    width: 90%;
+    line-height: 35px;
+    justify-content: center;
+    margin: 10px;
+    text-align: center;
+}
+
+.sub-caracteriza .texto-caracteriza{
+    width: 80%;
+    margin-left: 30px;
+}
+
+.sub-caracteriza .btn-caracteriza{
+    text-align: center;
+    border-radius: 30px;
+    padding: 5px 20px;
+    font-size: 18px;
+    border-style: solid;
+    border-color: #3CB815;
+}
+
+.principal-productos{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.principal-productos .header-productos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.subheader-productos{
+    width: 40%;
+}
+
+.subheader-lista .lista-general {
+    display: inline-flex;
+    list-style: none;   
+}
+
+.subheader-lista .lista-general .lista {
+    text-align: center;
+    padding: 5px 20px;
+    font-size: 15px;
+    border-style: solid;
+    border-color: #3CB815;
+    color: #F7F8FC;
+    margin: 60px 10px 0 10px;
+}
+
+.lista a:hover{
+    background-color: #3CB815;
+    text-align: center;
+    font-size: 15px;
+    border-style: solid;
+    border-color: #3CB815;
+    width: auto;
+}
+
+.secundario-productos{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.sub-secundario-productos{
+    width: 25%;
+   margin: 5px;
+}
+
+.productos .productos-nombre{
+    text-align: center;
+    width: 400px;
+    padding: 20px;
+    border-style: solid;
+    border-color: aliceblue;
+}
+
+.productos .productos-detalle{  
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 400px;   
+}
+
+
+.detalle{  
+    width: 100%;
+    border-style: solid;
+    text-align: center;    
+    border-right: none;
+    height: auto;
+    border-color: aliceblue;
+    padding: 5px;
+}
+
+.carrito{
+    width: 100%;
+    border-style: solid;
+    text-align: center;
+   border-color: aliceblue;
+   padding: 5px;
+}
+
+.principal-finca{
+    float: left;
+    width: 100%;
+    height: auto;
+    background-color: #3CB815;
+    line-height: 40px;
+    margin-top: 20px;
+}
+
+
+.secundario-finca .titulo-finca{
+    float: left;
+    width: 70%;
+    margin:50px
+}
+
+.titulo-finca .tit-finca{
+    color: #f7f0f3;
+}
+
+.titulo-finca .p-finca{
+    color: #f7f0f3;
+    width: 70%;
+}
+
+.secundario-finca .boton-finca{
+    float: left;
+    margin-top: 180px;
+    margin-right: 100px;
+}
+
+.secundario-finca .boton-finca .btn-finca{
+    background-color: #F65005;
+    border-radius: 30px;
+    color: #F7F8FC;
+    border: none;
+    padding: 15px 40px;
+    font-size: 18px;
+    margin-right: 10%;
+}
+
+.principal-footer{
+    background-color: #090808;
+    margin-top: 20px;
+}
+
+.secundario-footer{
+    padding-top: 40px;  
+}
+
+.sec-titulo{
+    color: #f7f0f3;
+}
+
+.th-titulo{
+    color: #f7f0f3;
+}
+
+.third-footer .btn-footer{
+    display: block;
+    margin-right: 140px;
+}
+

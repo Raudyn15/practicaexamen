@@ -1,0 +1,93 @@
+@media screen and (max-width: 768px) {
+    .nav{     
+       z-index: 10;  
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .principalcarrusel .carousel-caption .titulocarrusel{     
+        width: 100%; 
+        font-size: 30px;
+       
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .principalcarrusel .botoncarrusel{     
+        width: 100%; 
+        padding-right: 250px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .principalfrutas .secundariofrutas .imagenfrutas{     
+        width: 100%; 
+        height: auto;    
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .principalfrutas, .imagenfrutas, .imagenfrutas .imagen{     
+        width: 100%; 
+        height: auto;    
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .principalfrutas .secundariofrutas .textoprincipalfrutas{     
+        width: 100%;
+        padding-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .principalcaracteriza, .section-header{     
+         width: 100%;
+     }
+ }
+ 
+ @media screen and (max-width: 768px) {
+  .principalcaracteriza, .principalcaracteriza .seccion-caracteriza{     
+         width: 100%;
+        flex-wrap: wrap;
+     }
+ }
+
+ @media screen and (max-width: 768px) {
+    .principal-productos .header-productos{     
+           width: 100%;
+           flex-wrap: wrap;
+       }
+   }
+
+ @media screen and (max-width: 768px) {
+    .subheader-productos, .subheader-lista .lista-general{     
+           width: 100%;
+       }
+   }
+
+   @media screen and (max-width: 768px) {
+    .secundario-productos{     
+           width: 100%;
+           flex-wrap: wrap;
+       }
+   }
+   
+   @media screen and (max-width: 768px) {
+    .sub-secundario-productos
+    {     
+           width: 100%;
+
+       }
+   }
+
+   @media screen and (max-width: 768px) {
+    .secundario-finca .boton-finca
+    {     
+           margin-top: -60px;
+
+       }
+   }
+   
